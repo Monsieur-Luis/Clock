@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(180deg, #474747 23.8%, #b8b8b8 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.card {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
